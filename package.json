@@ -1,7 +1,10 @@
 {
-  "name": "credit-card-brand",
+  "name": "credit-card-get-brand",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "build/index.js",
+  "files": [
+    "build"
+  ],
   "repository": "https://github.com/lucasAguiar11/credit-card-brand.git",
   "author": "Lucas Aguiar <lucas99.abreu@gmail.com>",
   "license": "MIT",
