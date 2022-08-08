@@ -6,6 +6,10 @@
 
 npm i credit-card-get-brand
 
+# or
+
+yarn add credit-card-get-brand
+
 ```
 
 ## Basic usage
