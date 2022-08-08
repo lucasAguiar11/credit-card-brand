@@ -1,4 +1,4 @@
-import getBrand from '../src/index'
+import { getBrand } from '../src/index'
 
 const VISA: string[] = [
   '4716443872527311',

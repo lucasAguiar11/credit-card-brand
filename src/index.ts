@@ -5,7 +5,7 @@ const cleanNumber = (cardNumber: string): string => {
   return cardNumber.replace(/\D/g, '')
 }
 
-const getBrand = (cardNumber: string): CardBrand | null => {
+export const getBrand = (cardNumber: string): CardBrand | null => {
   const cleanedNumber = cleanNumber(cardNumber)
 
   if (!cleanedNumber) return null
@@ -17,5 +17,3 @@ const getBrand = (cardNumber: string): CardBrand | null => {
   if (!brandPattern) console.log('No brand found for card number: ', cardNumber)
   return brandPattern?.brand || null
 }
-
-export default getBrand

@@ -1,13 +1,20 @@
 {
   "name": "credit-card-get-brand",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "main": "build/index.js",
+  "types": "build/index.d.ts",
   "files": [
     "build"
   ],
-  "repository": "https://github.com/lucasAguiar11/credit-card-brand.git",
-  "author": "Lucas Aguiar <lucas99.abreu@gmail.com>",
+  "repository": "https://github.com/lucasAguiar11/credit-card-get-brand.git",
+  "author": "Lucas Aguiar <lucas.aguiar.developer@gmail.com.br>",
   "license": "MIT",
+  "keywords": [
+    "credit",
+    "card",
+    "creditcards",
+    "brand"
+  ],
   "scripts": {
     "dev": "nodemon",
     "build": "rimraf ./build && tsc",
