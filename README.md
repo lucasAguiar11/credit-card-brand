@@ -1,18 +1,19 @@
 # credit-card-get-brand
 
-## install
+![Downloads](https://img.shields.io/npm/dt/credit-card-get-brand.svg)
+[![PayPal][badge_paypal_donate]][paypal-donations]
 
-```bash
+## :cloud: Installation
 
-npm i credit-card-get-brand
+```sh
+# Using npm
+npm install --save credit-card-get-brand
 
-# or
-
+# Using yarn
 yarn add credit-card-get-brand
-
 ```
 
-## Basic usage
+## :clipboard: Example
 
 From the card number, return the brand
 
@@ -34,7 +35,7 @@ console.log(brand);
 */
 ```
 
-## API
+## :mag: API
 
 ### `getBrand(cardNumber: String)`
 
@@ -58,3 +59,8 @@ console.log(brand);
 - JCB
 - HIPERCARD
 - VISA
+
+
+[badge_paypal]: https://ionicabizau.github.io/badges/paypal.svg
+[badge_paypal_donate]: https://ionicabizau.github.io/badges/paypal_donate.svg
+[paypal-donations]: https://www.paypal.com/donate/?hosted_button_id=DYNBVV9MWPA88
